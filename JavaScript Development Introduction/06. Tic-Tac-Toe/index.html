@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body onload="cellOrder()">
+<div id="wrapper">
+    <header>
+        <p>Tic - Tac - Toe</p>
+    </header>
+
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <aside>
+        <div id="hints">
+            <p>Player One - 0</p>
+
+            <p>Player Two - X</p>
+        </div>
+
+        <div id="options">
+            <button id="new-game" onclick="newGame()">
+                <p>New Game</p>
+            </button>
+            <button id="clear-res" onclick="clearResult()">
+                <p>Clear Result</p>
+            </button>
+        </div>
+
+        <div id="result">
+            <p>Result: </p>
+
+            <div id="numRes">
+                <span id="player1-res">0</span>
+                <span>:</span>
+                <span id="player2-res">0</span>
+            </div>
+        </div>
+
+        <div id="winner">
+        </div>
+    </aside>
+</div>
+</body>
+</html>

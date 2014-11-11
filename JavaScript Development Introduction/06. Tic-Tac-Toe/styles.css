@@ -1,0 +1,100 @@
+header {
+    margin-top: 0;
+}
+
+header p {
+    margin-left: 19%;
+    margin-top: 2%;
+    font-size: 72px;
+}
+
+table {
+    margin-top: -4%;
+    margin-left: 18%;
+    display: inline-block;
+}
+
+table, table tr, table tr td {
+    border: 7px solid white;
+    border-collapse: collapse;
+}
+
+table tr td {
+    width: 140px;
+    height: 140px;
+}
+
+td {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 92px;
+    text-align: center;
+    background: rgb(0, 174, 255);
+    color: white;
+}
+
+aside {
+    vertical-align: top;
+    margin-top: -1%;
+    margin-left: 3%;
+    width: 35%;
+    display: inline-block;
+}
+
+div#hints p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 36px;
+    margin: 0;
+    margin-left: 13%;
+}
+
+div#options{
+    width: 78%;
+    margin-top: 4%;
+    border-top: 3px solid black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button#new-game, button#clear-res{
+    width: 40%;
+    line-height: 10px;
+    background: rgb(0, 174, 255);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5%;
+    border: none;
+}
+
+button#new-game{
+    margin-right: 3%;
+    margin-left: 8%;
+}
+
+div#result {
+    width: 78%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 42px;
+}
+
+div#result p {
+    margin-left: 33%;
+    margin-top: 4%;
+}
+
+div#numRes {
+    margin-top: -10%;
+    margin-left: 33%;
+}
+
+span {
+    font-size: 62px;
+}
+
+#winner {
+    margin-top: 0;
+    margin-left: 1.5%;
+    font-size: 46px;
+    font-weight: bold;
+    color: rgb(0, 174, 255);;
+}
