@@ -59,16 +59,13 @@ function newGame(){
     playerOne = [];
     playerTwo = [];
     count = 0;
-
 }
 
 function clearResult(){
     document.getElementById("player1-res").innerHTML = 0;
     document.getElementById("player2-res").innerHTML = 0;
-
     playerOneRes = 0;
     playerTwoRes = 0;
-
 }
 
 function isEven(number) {
@@ -76,7 +73,6 @@ function isEven(number) {
 }
 
 function winner() {
-
     for (var i = 0; i < winningCombination.length; i++) {
         if (compare(playerOne, winningCombination[i])) {
             document.getElementById("winner").innerHTML = "Player One Wins!";
@@ -94,13 +90,11 @@ function winner() {
 
 function compare(player, combination) {
     var comboCount = 0;
-
+	
     for (var i = 0; i < combination.length; i++) {
         for (var j = 0; j < player.length; j++) {
-
             if (player[j] == combination[i]) {
                 comboCount++;
-
                 if (comboCount == 3) {
                     return true;
                 }
@@ -127,7 +121,6 @@ function action(cell) {
         winner();
 
         count++;
-
     }
 }
 
